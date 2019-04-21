@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar8"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#ffaaaa"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="运用"
+            android:textSize="24dp" />
+
+
+    </android.support.v7.widget.Toolbar>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:rowCount="5"
+        android:columnCount="3">
+      <Button
+
+          android:text="1"/>
+        <Button
+            android:text="2"/>
+        <Button
+            android:text="3"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="4"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="5"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="6"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="7"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="8"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="9"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="0"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="+"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="-"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="*"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="/"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="="/>
+
+
+
+    </GridLayout>
+    <Button
+        android:id="@+id/back7"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="返回"
+        android:textSize="20dp"
+        android:textColor="#ff0000"/>
+
+</LinearLayout>
